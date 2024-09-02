@@ -22,6 +22,7 @@ import Notification from "../assets/icons/notification.png";
 import Search from "../assets/icons/search.png";
 import Settings from "../assets/icons/settings.png";
 import Wallet from "../assets/icons/wallet.png";
+import NormalPlus from "../assets/icons/normal-plus.png";
 
 export {
   Avatar,
@@ -45,6 +46,7 @@ export {
   Mail,
   Plus,
   Notification,
+  NormalPlus,
   Search,
   Settings,
   Wallet,
