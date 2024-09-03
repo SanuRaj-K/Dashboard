@@ -43,7 +43,7 @@ function TopNav() {
             </div>
           </div>
         </div>
-        <div className=" sm:hidden">Menu</div>
+        <div className=" font-semibold sm:hidden">Menu</div>
       </div>
     </div>
   );

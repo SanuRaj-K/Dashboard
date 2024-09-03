@@ -25,7 +25,7 @@ function Table() {
           </thead>
           <tbody>
             {tableData?.map((data, index) => (
-              <tr className=" md:text-[20px] text-xs   " key={index}>
+              <tr className=" md:text-[20px] text-xs hover:bg-gray-100 cursor-pointer   " key={index}>
                 <td className=" py-3">
                   <div className=" flex items-center">
                     <div className=" bg-[#F3F4F7] hidden sm:flex rounded-md px-2 py-1">

@@ -17,11 +17,11 @@ function BalanceCard() {
         </div>
       </div>
       <div className=" mt-auto flex justify-between  px-3 py-2">
-        <div className="  bg-white cursor-pointer mr-2 md:mr-0 text-black w-[200px] rounded-full px-4 py-2 flex-center">
+        <div className="  bg-white cursor-pointer hover:text-[20px] mr-2 md:mr-0 text-black w-[200px] rounded-full px-4 py-2 flex-center">
           <p>Deposit</p>
           <img className="  ml-1 md:ml-3" src={Down} alt="down" />
         </div>
-        <div className="  bg-black w-[200px] cursor-pointer text-white rounded-full px-4 py-2 flex-center">
+        <div className="  bg-black w-[200px] cursor-pointer hover:text-[20px] text-white rounded-full px-4 py-2 flex-center">
           <p>Send</p>
           <img className=" ml-3" src={Increase} alt="increase" />
         </div>

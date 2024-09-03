@@ -11,7 +11,7 @@ function BarChart() {
             <div className=" flex bg-[#CCFFCD] rounded-3xl px-2 py-1 text-xs font-semibold items-center">
               <select
                 name="Week"
-                className="bg-[#CCFFCD] appearance-none outline-none"
+                className="bg-[#CCFFCD] cursor-pointer appearance-none outline-none"
                 id=""
               >
                 <option value="">Week</option>
