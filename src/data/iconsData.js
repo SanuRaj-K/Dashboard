@@ -23,10 +23,12 @@ import Search from "../assets/icons/search.png";
 import Settings from "../assets/icons/settings.png";
 import Wallet from "../assets/icons/wallet.png";
 import NormalPlus from "../assets/icons/normal-plus.png";
+import DownIcon from "../assets/icons/down-icon.png";
 
 export {
   Avatar,
   card,
+  DownIcon,
   Chart,
   Sign,
   Chat,
