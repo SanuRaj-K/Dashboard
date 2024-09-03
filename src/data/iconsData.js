@@ -24,11 +24,23 @@ import Settings from "../assets/icons/settings.png";
 import Wallet from "../assets/icons/wallet.png";
 import NormalPlus from "../assets/icons/normal-plus.png";
 import DownIcon from "../assets/icons/down-icon.png";
+import ReciepentPlus from "../assets/icons/Recepient-plus.png";
+import SendIcon from "../assets/icons/send-1.png";
+import AppleTV from "../assets/icons/appleTV.png";
+import Upwork from "../assets/icons/upwork.png";
+import Esty from "../assets/icons/esty.png";
+import Dribble from "../assets/icons/dribble.png";
 
 export {
   Avatar,
+  AppleTV,
+  Upwork,
+  Esty,
+  Dribble,
   card,
+  SendIcon,
   DownIcon,
+  ReciepentPlus,
   Chart,
   Sign,
   Chat,

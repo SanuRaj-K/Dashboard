@@ -15,7 +15,7 @@ function PaymentCard() {
           </div>
           <img className=" h-[40px] cursor-pointer" src={Plus} alt="plus" />
         </div> 
-        <div className=" mt-auto pb-3 flex">
+        <div className=" mt-auto pb-3 px-3 flex">
           <img src={Visa} className=" h-[120px] cursor-pointer " alt="card" />
           <img src={CardTwo} className=" h-[120px] cursor-pointer pl-2" alt="card" />
         </div>

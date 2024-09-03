@@ -5,6 +5,7 @@ import CurrencyMarket from "./progress-bar/CurrencyMarket";
 import IncomeProgCard from "./progress-bar/IncomeProgCard";
 import SplineAreaChart from "./cards/IncomeChartTop";
 import { IncomeCard, IncomeChart } from "../../../../data/iconsData";
+import Table from "./currency-table/Table";
 
 function LeftSection() {
   return (
@@ -17,7 +18,7 @@ function LeftSection() {
           <SplineAreaChart />
         </div>
       </div>
-      <div className=" flex justify-between mt-8 ">
+      <div className=" flex justify-between my-8 ">
         <div className=" w-1/3">
           <IncomeProgCard
             icon={IncomeChart}
@@ -39,6 +40,9 @@ function LeftSection() {
         <div className=" w-1/3">
           <CurrencyMarket />
         </div>
+      </div>
+      <div>
+        <Table />
       </div>
     </div>
   );
