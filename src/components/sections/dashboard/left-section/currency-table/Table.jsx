@@ -6,11 +6,11 @@ function Table() {
   return (
     <div className=" bg-white rounded-3xl ">
       <div className="   px-6  py-3 items-center ">
-        <div className="md:flex hidden justify-between">
-          <div className=" text-[24px] font-semibold">Currencies Market</div>
+        <div className="flex  justify-between">
+          <div className=" md:text-[24px] text-[16px] font-semibold">Currencies Market</div>
           <div className=" flex ">
-            <img className=" cursor-pointer w-10" src={Filter} alt="filter" />
-            <img className=" cursor-pointer w-10 ml-2" src={FilterTwo} alt="filter" />
+            <img className=" cursor-pointer w-5 md:w-10" src={Filter} alt="filter" />
+            <img className=" cursor-pointer w-5 md:w-10 ml-2" src={FilterTwo} alt="filter" />
           </div>
         </div>
         <table className=" w-full overflow-scroll  mt-5">
