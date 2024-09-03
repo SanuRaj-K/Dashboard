@@ -5,14 +5,14 @@ import RightSection from "./right-section";
 
 function DashboardSection() {
   return (
-    <div className="  ">
+    <div className=" w-full  ">
       <TopNav />
-      <div className=" w-full flex justify-between mt-10">
-        <div className=" w-3/4">
+      <div className=" w-full flex flex-col md:flex-row md:justify-between mt-10">
+        <div className=" w-full my-auto md:w-3/4">
           <LeftSection />
         </div>
         <div className=" ">
-          <RightSection />
+          {/* <RightSection /> */}
         </div>
       </div>
     </div>

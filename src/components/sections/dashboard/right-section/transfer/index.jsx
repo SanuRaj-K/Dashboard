@@ -18,7 +18,7 @@ function QuickTransfer() {
   console.log(accounts);
 
   return (
-    <div className=" bg-white mt-8 rounded-3xl ">
+    <div className=" bg-white my-8 rounded-3xl ">
       <div className=" px-3 py-2 ">
         <div className=" flex justify-between mb-3">
           <h3 className=" font-semibold text-[24px]">Quick Transfer</h3>

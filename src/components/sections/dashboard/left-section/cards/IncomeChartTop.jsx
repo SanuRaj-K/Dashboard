@@ -42,35 +42,33 @@ const SplineAreaChart = () => {
   ];
 
   return (
-    <div className=" bg-white h-[250px] rounded-3xl ml-5" >
-        <div>
-
-     
-      <div className=" flex justify-between  px-3 py-2 ">
-        <h2 className=" text-[24px] font-semibold">Income</h2>
-        <div className="  cursor-pointer ">
-          <div className=" flex bg-[#CCFFCD] rounded-3xl px-2 py-1 text-xs font-semibold items-center">
-            <select
-              name="Month"
-              className="bg-[#CCFFCD] appearance-none outline-none"
-              id=""
-            >
-              <option value="">Month</option>
-              <option value="Jan">Januvary</option>
-              <option value="Feb">Feb</option>
-            </select>
-            <img src={DownIcon} alt="arrow" />
+    <div className=" w-full bg-white h-[250px] rounded-3xl md:ml-5">
+      <div>
+        <div className=" flex justify-between  px-3 py-2 ">
+          <h2 className=" text-[24px] font-semibold">Income</h2>
+          <div className="  cursor-pointer ">
+            <div className=" flex bg-[#CCFFCD] rounded-3xl px-2 py-1 text-xs font-semibold items-center">
+              <select
+                name="Month"
+                className="bg-[#CCFFCD] appearance-none outline-none"
+                id=""
+              >
+                <option value="">Month</option>
+                <option value="Jan">Januvary</option>
+                <option value="Feb">Feb</option>
+              </select>
+              <img src={DownIcon} alt="arrow" />
+            </div>
           </div>
         </div>
+        <Chart
+          options={options}
+          series={series}
+          type="area"
+          width="100%"
+          height="100%"
+        />
       </div>
-      <Chart
-        options={options}
-        series={series}
-        type="area"
-        width="100%"
-        height="100%"
-      />
-         </div>
     </div>
   );
 };

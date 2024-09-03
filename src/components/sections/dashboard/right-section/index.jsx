@@ -1,12 +1,14 @@
 import React from "react";
 import PaymentCard from "./cards/PaymentCard";
 import QuickTransfer from "./transfer";
+import BarChart from "./bar-chart/BarChart";
 
 function RightSection() {
   return (
     <div className=" ml-5">
       <PaymentCard />
-      <QuickTransfer/>
+      <QuickTransfer />
+      <BarChart />
     </div>
   );
 }
