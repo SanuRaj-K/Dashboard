@@ -14,7 +14,7 @@ function CurrencyMarket() {
               <h6 className=" text-[14px] text-[#B6B6B6]">0.73</h6>
             </div>
           </div>
-          <div>
+          <div className=" md:hidden flex-col 2xl:flex">
             <h3 className=" text-[18px]">105.27</h3>
             <h6 className="text-[14px] text-[#007A64]">+14.4%</h6>
           </div>
@@ -27,7 +27,7 @@ function CurrencyMarket() {
               <h6 className=" text-[14px] text-[#B6B6B6]">-0.0086</h6>
             </div>
           </div>
-          <div>
+          <div className=" flex flex-col  md:hidden 2xl:flex">
             <h3 className=" text-[18px]">105.27</h3>
             <h6 className="text-[14px] text-[#FF6756]">-0.67%</h6>
           </div>

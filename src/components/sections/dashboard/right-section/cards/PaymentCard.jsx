@@ -8,7 +8,7 @@ function PaymentCard() {
       <div className=" h-full flex flex-col ">
         <div className=" flex justify-between px-3 py-2 ">
           <div>
-            <h3 className=" text-[24px] font-semibold sm:text-white md:text-blue-600 lg:text-green-500">Your cards </h3>
+            <h3 className=" text-[24px] font-semibold  ">Your cards </h3>
             <div className=" bg-[#DAE1FE] inline-block px-2 text-xs rounded-3xl font-semibold py-1">
               premium
             </div>
