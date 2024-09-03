@@ -8,9 +8,9 @@ function IncomeProgCard({ icon, value, color, percent, text }) {
       <div className=" flex px-6  py-3 justify-between">
         <div className=" ">
           <img src={icon} width={50} alt="img" />
-          <h2 className=" text-[24px] font-semibold">{text}</h2>
+          <h2 className=" text-[16px] md:text-[24px] font-semibold">{text}</h2>
         </div>
-        <div className=" w-[100px]">
+        <div className=" w-[80px] md:w-[100px]">
           <CircularProgressbar
             strokeWidth={18}
             value={percentage}
@@ -27,7 +27,7 @@ function IncomeProgCard({ icon, value, color, percent, text }) {
           />
         </div>
       </div>
-      <h2 className=" text-[32px] px-6  font-semibold">{value}</h2>
+      <h2 className=" text-[24px] md:text-[32px] px-6  font-semibold">{value}</h2>
     </div>
   );
 }

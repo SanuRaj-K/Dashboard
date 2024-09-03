@@ -5,7 +5,7 @@ import BarChart from "./bar-chart/BarChart";
 
 function RightSection() {
   return (
-    <div className=" ml-5">
+    <div className=" md:ml-5">
       <PaymentCard />
       <QuickTransfer />
       <BarChart />

@@ -16,10 +16,10 @@ function BalanceCard() {
           <img src={NormalPlus} width={44}   alt="plus" />
         </div>
       </div>
-      <div className=" mt-auto flex justify-between px-3 py-2">
-        <div className="  bg-white cursor-pointer text-black w-[200px] rounded-full px-4 py-2 flex-center">
+      <div className=" mt-auto flex justify-between  px-3 py-2">
+        <div className="  bg-white cursor-pointer mr-2 md:mr-0 text-black w-[200px] rounded-full px-4 py-2 flex-center">
           <p>Deposit</p>
-          <img className=" ml-3" src={Down} alt="down" />
+          <img className="  ml-1 md:ml-3" src={Down} alt="down" />
         </div>
         <div className="  bg-black w-[200px] cursor-pointer text-white rounded-full px-4 py-2 flex-center">
           <p>Send</p>

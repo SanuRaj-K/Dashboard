@@ -4,7 +4,7 @@ import { Logo, Sign } from "../../data/iconsData";
 
 function SideMenu() {
   return (
-    <div className="  flex flex-col  justify-between items-center py-4 h-screen bg-black rounded-[50px] ">
+    <div className=" w-full  flex flex-col  justify-between items-center py-4 h-screen bg-black rounded-[50px] ">
       <div>
         <img src={Logo} width={36} height={36} alt="logo" />
       </div>

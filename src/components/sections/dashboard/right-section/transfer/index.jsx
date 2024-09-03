@@ -15,7 +15,6 @@ function QuickTransfer() {
         console.log(err);
       });
   }, []);
-  console.log(accounts);
 
   return (
     <div className=" bg-white my-8 rounded-3xl ">
@@ -30,7 +29,7 @@ function QuickTransfer() {
           {accounts?.slice(0, 4).map((item, index) => (
             <li
               key={index}
-              className= " cursor-pointer bg-[#e3ae8880] rounded-t-full rounded-b-full"
+              className=" cursor-pointer bg-[#e3ae8880] rounded-t-full rounded-b-full"
             >
               <div className="">
                 <div className=" flex flex-col items-center  my-3  mx-1">
@@ -40,7 +39,7 @@ function QuickTransfer() {
                     src={item.avatar}
                     alt=""
                   />
-                  <span className=" text-[12px]">{item.first_name}</span>
+                  <span className=" md:hidden  2xl:flex text-[12px]">{item.first_name}</span>
                 </div>
               </div>
             </li>

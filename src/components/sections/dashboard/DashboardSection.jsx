@@ -12,7 +12,7 @@ function DashboardSection() {
           <LeftSection />
         </div>
         <div className=" ">
-          {/* <RightSection /> */}
+          <RightSection />
         </div>
       </div>
     </div>
