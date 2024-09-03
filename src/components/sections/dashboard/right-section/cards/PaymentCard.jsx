@@ -4,7 +4,7 @@ import CardTwo from "../../../../../assets/images/second-card.png";
 import { Plus } from "../../../../../data/iconsData";
 function PaymentCard() {
   return (
-    <div className=" bg-white  mt-3 md:mt-0 ml-4 2xl:ml-0 rounded-3xl h-[250px] ">
+    <div className=" bg-white  mt-3 md:mt-0    rounded-3xl h-[250px] ">
       <div className=" h-full flex flex-col ">
         <div className=" flex justify-between px-3 py-2 ">
           <div>

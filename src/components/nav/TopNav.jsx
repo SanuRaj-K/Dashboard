@@ -32,7 +32,7 @@ function TopNav() {
             <div className="hidden  sm:flex lg:justify-between cursor-pointer items-center">
               <img src={Avatar} className=" flex  h-36px w-[36px]" alt="avatar" />
               <div className=" flex flex-col  pl-3">
-                <p className="flex text-[10px] text-[#B6B6B6] ">
+                <p className="flex text-[10px] items-center text-[#B6B6B6] ">
                   @WilliamBiiii{" "}
                   <span className=" text-black font-semibold bg-[#00FF6B]  px-2 py-1 rounded-[32px]">
                     Pro

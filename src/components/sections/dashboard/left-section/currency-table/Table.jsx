@@ -13,8 +13,8 @@ function Table() {
             <img className=" cursor-pointer w-10 ml-2" src={FilterTwo} alt="filter" />
           </div>
         </div>
-        <table className=" w-full  mt-5">
-          <thead className=" text-[#B6B6B6]  text-xs   text-left ">
+        <table className=" w-full overflow-scroll  mt-5">
+          <thead className=" text-[#B6B6B6]  text-xs md:text-[18px]  text-left ">
             <tr className=" ">
               <th className=" py-3">Name</th>
               <th className=" py-3">Amount</th>

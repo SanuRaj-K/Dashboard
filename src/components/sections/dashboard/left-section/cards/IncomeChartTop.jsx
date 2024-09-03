@@ -42,7 +42,7 @@ const SplineAreaChart = () => {
   ];
 
   return (
-    <div className=" w-full bg-white h-[250px] rounded-3xl md:ml-5">
+    <div className=" w-full bg-white h-[250px] rounded-3xl ">
       <div>
         <div className=" flex justify-between  px-3 py-2 ">
           <h2 className=" text-[24px] font-semibold">Income</h2>

@@ -11,7 +11,7 @@ function LeftSection() {
   return (
     <div className=" w-full  ">
       <div className=" flex flex-col md:flex-row w-full">
-        <div className=" w-full  md:w-1/2">
+        <div className=" w-full  mr-3 md:w-1/2">
           <BalanceCard />
         </div>
         <div className=" w-full my-4 md:my-0 md:w-1/2">
